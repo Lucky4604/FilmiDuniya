@@ -25,9 +25,9 @@ const categories = [
 ];
 
 const redLogo =
-	'https://fontmeme.com/permalink/210930/8531c658a743debe1e1aa1a2fc82006e.png';
+	'https://fontmeme.com/permalink/220908/9652145963b1be734d1c669a4a796984.png';
 const blueLogo =
-	'https://fontmeme.com/permalink/210930/6854ae5c7f76597cf8680e48a2c8a50a.png';
+	'https://fontmeme.com/permalink/220908/9952ba03b491dc2d3cc31e751f752590.png';
 
 const Sidebar = ({ setMobileOpen }) => {
 	const theme = useTheme();
@@ -51,7 +51,7 @@ const Sidebar = ({ setMobileOpen }) => {
 			<LinkContainer onClick={() => navigate('/')}>
 				<img
 					src={theme.palette.mode === 'light' ? redLogo : blueLogo}
-					alt='Filmpire Logo'
+					alt='FilmiDuniya Logo'
 				/>
 			</LinkContainer>
 			<Divider />
